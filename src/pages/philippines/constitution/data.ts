@@ -1,4 +1,5 @@
 import { ConstitutionVersionSchema, type ConstitutionVersion } from './schema';
+import { fullText1987 } from './versions/fullText1987';
 
 // Ordered newest-first: the constitution currently in force appears at the
 // top, followed by earlier charters in reverse chronological order.
@@ -26,6 +27,7 @@ const rawData: ConstitutionVersion[] = [
       'Remains in force today; per the Constitute Project it is counted as the Philippines\u2019 sixth constitution and has not been formally amended since ratification',
     ],
     sourceUrl: 'https://www.officialgazette.gov.ph/constitutions/',
+    fullText: fullText1987,
   },
   {
     slug: 'freedom-constitution-1986',
