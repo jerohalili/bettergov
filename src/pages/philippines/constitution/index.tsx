@@ -4,6 +4,7 @@ import SEO from '../../../components/SEO';
 import { getConstitutionSEOData } from '../../../utils/seo-data';
 import { cn } from '../../../lib/utils';
 import { constitutionVersions } from './data';
+import FullTextReader from './components/FullTextReader';
 
 const statusLabel: Record<string, string> = {
   'in-force': 'In force',
@@ -120,6 +121,34 @@ function VersionDetail({
           <ExternalLinkIcon className='h-3.5 w-3.5 ml-1' />
         </a>
       </div>
+
+      {version.fullText ? (
+        <FullTextReader fullText={version.fullText} />
+      ) : (
+        <div className='border-t border-gray-200 pt-6 mt-8 text-sm text-gray-800'>
+          The full text for this constitution hasn&apos;t been added yet.{' '}
+          {version.fullTextUrl ? (
+            <a
+              href={version.fullTextUrl}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-primary-600 hover:underline'
+            >
+              Read it at the source
+            </a>
+          ) : (
+            <a
+              href={version.sourceUrl}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-primary-600 hover:underline'
+            >
+              Read it at the source
+            </a>
+          )}
+          .
+        </div>
+      )}
     </div>
   );
 }
