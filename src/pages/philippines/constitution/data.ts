@@ -140,7 +140,7 @@ const rawData: ConstitutionVersion[] = [
   {
     slug: 'jones-law-1916',
     name: 'The Jones Law of 1916',
-    shortName: 'Jones Law',
+    shortName: 'Jones Law of 1916',
     year: 1916,
     effectiveDate: 'August 29, 1916',
     endDate: '1935',
@@ -188,7 +188,7 @@ const rawData: ConstitutionVersion[] = [
   {
     slug: 'malolos-1899',
     name: 'The 1899 Malolos Constitution',
-    shortName: 'Malolos Constitution',
+    shortName: '1899 Malolos Constitution',
     year: 1899,
     effectiveDate: 'January 21, 1899',
     endDate: 'March 23, 1901',
