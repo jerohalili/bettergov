@@ -464,7 +464,7 @@ export const fullText1935: ConstitutionFullText = {
       title: 'Amendments',
       sections: [
         {
-          number: '1',
+          number: '',
           text: 'The Congress in joint session assembled, by a vote of three-fourths of all the Members of the Senate and of the House of Representatives voting separately, may propose amendments to this Constitution or call a convention for that purpose. Such amendments shall be valid as part of this Constitution when approved by a majority of the votes cast at an election at which the amendments are submitted to the people for their ratification.',
         },
       ],
@@ -505,7 +505,7 @@ export const fullText1935: ConstitutionFullText = {
         'Special Provisions Effective upon the Proclamation of the Independence of the Philippines',
       sections: [
         {
-          number: '1',
+          number: '',
           text: 'Upon the proclamation of the President of the United States recognizing the independence of the Philippines:\n\n(1) The property rights of the United States and the Philippines shall be promptly adjusted and settled, and all existing property rights of citizens or corporations of the United States shall be acknowledged, respected, and safeguarded to the same extent as property rights of the Philippines.\n\n(2). The officials elected and serving under this Constitution shall be constitutional officers of the free and independent Government of the Philippines and qualified to function in all respects as if elected directly under such Government, and shall serve their full terms of office as prescribed in this Constitution.\n\n(3) The debts and liabilities of the Philippines, its provinces, cities, municipalities, and instrumentalities, which shall be valid and subsisting at the time of the final and complete withdrawal of the sovereignty of the United States, shall be assumed by the free and independent Government of the Philippines; and where bonds have been issued under authority of an Act of Congress of the United States by the Philippine Islands, or any province, city or municipality therein, the Government of the Philippines will make adequate provision for the necessary funds for the payment of interest and principal, and such obligations shall be a first lien on all taxes collected.\n\n(4) The Government of the Philippines will assume all continuing obligations of the United States under the Treaty of Peace with Spain ceding the Philippine Islands to the United States.\n\n(5) The Government of the Philippines will embody the foregoing provisions of this article (except subsection (2)) in a treaty with the United States.',
         },
       ],
@@ -515,7 +515,7 @@ export const fullText1935: ConstitutionFullText = {
       title: 'The Commonwealth and the Republic',
       sections: [
         {
-          number: '1',
+          number: '',
           text: 'The government established by this Constitution shall be known as the Commonwealth of the Philippines. Upon the final and complete withdrawal of the sovereignty of the United States and the proclamation of Philippine independence, the Commonwealth of the Philippines shall thenceforth be known as the Republic of the Philippines.',
         },
       ],

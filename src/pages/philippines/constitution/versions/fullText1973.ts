@@ -210,7 +210,7 @@ export const fullText1973: ConstitutionFullText = {
       title: 'Suffrage',
       sections: [
         {
-          number: '1',
+          number: '',
           text: 'Suffrage shall be exercised by citizens of the Philippines not otherwise disqualified by law, who are eighteen years of age or over and who shall have resided in the Philippines for at least one year and in the place wherein they propose to vote for at least six months preceding the election. No literacy, property or other substantive requirement shall be imposed on the exercise of, suffrage. The Batasang Pambansa shall provide a system for the purpose of securing the secrecy and sanctity of the vote.',
         },
       ],

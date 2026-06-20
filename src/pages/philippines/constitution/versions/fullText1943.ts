@@ -368,7 +368,7 @@ export const fullText1943: ConstitutionFullText = {
       title: 'Amendments',
       sections: [
         {
-          number: '1',
+          number: '',
           text: 'The National Assembly, by a vote of two-thirds of all its members, may propose amendments to this Constitution, but such amendments shall not be valid as part of the Constitution unless approved by the people at a plebiscite or convention especially called for that purpose and on the date and under conditions to be prescribed by law.',
         },
       ],
@@ -420,7 +420,7 @@ export const fullText1943: ConstitutionFullText = {
       title: 'Special Provisions',
       sections: [
         {
-          number: '1',
+          number: '',
           text: 'Within one year after the termination of the Greater East Asia War, the National Assembly shall by law provide for the election by popular suffrage of delegates to a Constitutional Convention, which shall meet not later than sixty days after their election in order to formulate and adopt a new Constitution which shall become effective upon its approval by the people at a plebiscite to be held for the purpose. After such approval the National Assembly shall forthwith provide for the election of the officers under the new Constitution and the inauguration of the government established thereunder.',
         },
       ],
