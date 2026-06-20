@@ -12,7 +12,7 @@ export const fullText1973: ConstitutionFullText = {
       title: 'National Territory',
       sections: [
         {
-          number: '1',
+          number: '',
           text: 'The national territory comprises the Philippine archipelago, with all the islands and waters embraced therein, and all the other territories belonging to the Philippines by historic or legal title, including the territorial sea, the air space, the subsoil, the sea-bed, the insular shelves, and the submarine areas over which the Philippines has sovereignty or jurisdiction. The waters around, between, and connecting the islands of the archipelago, irrespective of their breadth and dimensions, form part of the internal waters of the Philippines.',
         },
       ],
