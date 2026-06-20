@@ -46,7 +46,7 @@ export default function ConstitutionSidebar() {
                   )}
                 >
                   <div className='flex items-center'>
-                    <BookOpenIcon className='h-4 w-4 mr-2 text-gray-400 flex-shrink-0' />
+                    <BookOpenIcon className='h-4 w-4 mr-2 text-gray-400 shrink-0' />
                     <span className='truncate'>{version.shortName}</span>
                   </div>
                   <span
