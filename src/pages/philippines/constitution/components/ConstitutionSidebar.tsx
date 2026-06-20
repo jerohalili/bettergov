@@ -17,7 +17,7 @@ const statusClass: Record<string, string> = {
   superseded: 'bg-gray-100 text-gray-800',
   suspended: 'bg-amber-50 text-amber-700',
   interim: 'bg-blue-50 text-blue-700',
-  'never-implemented': 'bg-gray-100 text-gray-800',
+  'never-implemented': 'bg-amber-50 text-amber-700',
 };
 
 export default function ConstitutionSidebar() {
