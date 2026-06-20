@@ -1,5 +1,12 @@
 import { ConstitutionVersionSchema, type ConstitutionVersion } from './schema';
 import { fullText1987 } from './versions/fullText1987';
+import { fullText1986 } from './versions/fullText1986';
+import { fullText1973 } from './versions/fullText1973';
+import { fullText1943 } from './versions/fullText1943';
+import { fullText1935 } from './versions/fullText1935';
+import { fullText1916 } from './versions/fullText1916';
+import { fullText1902 } from './versions/fullText1902';
+import { fullText1899 } from './versions/fullText1899';
 
 // Ordered newest-first: the constitution currently in force appears at the
 // top, followed by earlier charters in reverse chronological order.
@@ -52,6 +59,7 @@ const rawData: ConstitutionVersion[] = [
       'Served as a deliberately temporary, provisional charter',
     ],
     sourceUrl: 'https://www.officialgazette.gov.ph/constitutions/',
+    fullText: fullText1986,
   },
   {
     slug: '1973-constitution',
@@ -77,6 +85,7 @@ const rawData: ConstitutionVersion[] = [
       'Repeatedly amended (1976, 1980, 1981, 1984) to reshape the structure of government and entrench executive power',
     ],
     sourceUrl: 'https://www.officialgazette.gov.ph/constitutions/',
+    fullText: fullText1973,
   },
   {
     slug: '1943-constitution',
@@ -100,6 +109,7 @@ const rawData: ConstitutionVersion[] = [
       'Lapsed automatically with Japan\u2019s surrender and the restoration of the Commonwealth in 1945',
     ],
     sourceUrl: 'https://www.officialgazette.gov.ph/constitutions/',
+    fullText: fullText1943,
   },
   {
     slug: '1935-constitution',
@@ -125,6 +135,7 @@ const rawData: ConstitutionVersion[] = [
       '1947 "Parity Amendment" granted U.S. citizens equal rights with Filipinos to exploit Philippine natural resources',
     ],
     sourceUrl: 'https://www.officialgazette.gov.ph/constitutions/',
+    fullText: fullText1935,
   },
   {
     slug: 'jones-law-1916',
@@ -148,6 +159,7 @@ const rawData: ConstitutionVersion[] = [
       'Significantly expanded Filipino participation in lawmaking',
     ],
     sourceUrl: 'https://www.officialgazette.gov.ph/constitutions/',
+    fullText: fullText1916,
   },
   {
     slug: 'organic-act-1902',
@@ -171,6 +183,7 @@ const rawData: ConstitutionVersion[] = [
       'Extended American constitutional civil liberties protections to Filipinos',
     ],
     sourceUrl: 'https://www.officialgazette.gov.ph/constitutions/',
+    fullText: fullText1902,
   },
   {
     slug: 'malolos-1899',
@@ -194,6 +207,7 @@ const rawData: ConstitutionVersion[] = [
       'Declared Catholicism the state religion while guaranteeing free exercise of other faiths',
     ],
     sourceUrl: 'https://www.officialgazette.gov.ph/constitutions/',
+    fullText: fullText1899,
   },
 ];
 

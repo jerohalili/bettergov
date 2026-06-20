@@ -51,7 +51,12 @@ export default function FullTextReader({
                 >
                   {section.number && (
                     <span className='font-medium text-gray-900'>
-                      Section {section.number}.{' '}
+                      {section.number.startsWith('WHEREAS') ||
+                      section.number === 'WHEREFORE'
+                        ? `${section.number.split('_')[0]} `
+                        : section.number.startsWith('Article')
+                          ? `${section.number}. `
+                          : `Section ${section.number}. `}
                     </span>
                   )}
                   {section.text}
