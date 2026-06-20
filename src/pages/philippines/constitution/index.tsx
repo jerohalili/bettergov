@@ -1,4 +1,4 @@
-import { ExternalLinkIcon, ScrollTextIcon } from 'lucide-react';
+import { ScrollTextIcon } from 'lucide-react';
 import { useParams } from 'react-router-dom';
 import SEO from '../../../components/SEO';
 import { getConstitutionSEOData } from '../../../utils/seo-data';
@@ -92,34 +92,11 @@ function VersionDetail({
         <ul className='space-y-2'>
           {version.keyChanges.map((change, i) => (
             <li key={i} className='flex items-start text-sm text-gray-800'>
-              <span className='mt-1.5 mr-2 h-1.5 w-1.5 rounded-full bg-primary-500 flex-shrink-0' />
+              <span className='mt-1.5 mr-2 h-1.5 w-1.5 rounded-full bg-primary-500 shrink-0' />
               <span>{change}</span>
             </li>
           ))}
         </ul>
-      </div>
-
-      <div className='flex flex-wrap gap-4 pt-4 border-t border-gray-200 text-sm'>
-        {version.fullTextUrl && (
-          <a
-            href={version.fullTextUrl}
-            target='_blank'
-            rel='noopener noreferrer'
-            className='inline-flex items-center text-primary-600 hover:underline'
-          >
-            Read the full text
-            <ExternalLinkIcon className='h-3.5 w-3.5 ml-1' />
-          </a>
-        )}
-        <a
-          href={version.sourceUrl}
-          target='_blank'
-          rel='noopener noreferrer'
-          className='inline-flex items-center text-gray-800 hover:text-primary-600 hover:underline'
-        >
-          Source
-          <ExternalLinkIcon className='h-3.5 w-3.5 ml-1' />
-        </a>
       </div>
 
       {version.fullText ? (
